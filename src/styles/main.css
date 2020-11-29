@@ -486,6 +486,10 @@ body {
         padding: 0;
     }
 
+    .mobile-nav.navbar{
+        display: flex;
+    }
+
     .navbar-brand{
         color: #222222;
     }
