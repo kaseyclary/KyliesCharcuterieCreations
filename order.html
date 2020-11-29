@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <nav class="mobile-nav navbar">
+        <a class="navbar-brand" href="#">KCC</a>
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fa fa-bars 3x"></i></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="/about.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#faq">FaQ</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/order.html">Order</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/pricing.html">Pricing</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <nav class="desktop-nav">
+        <div class="nav-content-container">
+            <div id="nav-art-1">
+                <div id="nav-img-1"></div>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#faq">FaQ</a></li>
+                <li><a href="/order.html">Order</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+            </ul>
+            <div id="nav-art-2">
+                <div id="nav-img-2"></div>
+            </div>
+        </nav>
+    </nav>
+    <section class="bg-art-2">
+        <div class="order-container">
+            <h2>Want to order?</h2>
+            <p class="lead">Fill this out, and we'll be with you ASAP!</p>
+            <form name="order" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" class="form-control" id="fname" placeholder="Jane" name="firstName">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Doe" name="lastName">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Zip Code</label>
+                    <input type="number" class="form-control" id="zip" placeholder="90210" name="Zip">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Phone Number</label>
+                    <input type="tel" class="form-control" id="tel" placeholder="555-555-5555" name="phone">
+                </div>
+                <div class="form-group">
+                  <label for="order">Order Type</label>
+                  <select class="form-control" id="order" name="orderType">
+                    <option>Brunch</option>
+                    <option>Small Group</option>
+                    <option>Event</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Expected party size</label>
+                    <input type="number" class="form-control" id="size" placeholder="1 - 100 plus" name="groupSize">
+                </div>
+                <div class="form-group">
+                  <label for="notes">Notes / Questions?</label>
+                  <textarea class="form-control" id="notes" rows="2" placeholder="Looking forward to hearing from you!" name="notes"></textarea>
+                </div>
+                <div class="submit-container">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Custom website development by <a href="https://www.kaseyclary.com" target="_blank" class="blue-link">Kasey Clary</a>. Property of KBC Holdings 2020 &copy; <br>
+                Follow us on Facebook and Instagram!
+            </p>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/CharcuterieByKylie" target="_blank" class="social-icon" id="fb"></a>
+            <a href="https://www.instagram.com/charcuteriebykylie/" target="_blank" class="social-icon" id="insta"></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+</body>
+</html>
