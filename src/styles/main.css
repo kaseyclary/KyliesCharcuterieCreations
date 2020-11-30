@@ -7,7 +7,7 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant', serif;
     overflow-x: hidden;
 }
 
@@ -92,6 +92,7 @@ body {
     height: 3rem;
     z-index: 2;
     font-size: 1.1rem;
+    font-family: 'Cormorant', serif;
 }
 
 .nav-content-container{
@@ -211,10 +212,11 @@ body {
 #about-text-box{
     height: auto;
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border: 5px solid #999999b0;
     text-align: center;
     padding: 3rem;
+    font-family: 'Cormorant', serif;
 }
 
 #about-nav{
@@ -248,13 +250,14 @@ body {
     font-size: 1.3rem;
     padding: 3rem 7rem;
     text-align: center;
+    font-family: 'Cormorant', serif;
 }
 
 /* FAQ */
 #faq{
     background-color: #333333;
     color: #f1f1f1;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cormorant', serif;
 }
 .panel-group{
     width: 50%;
@@ -291,6 +294,7 @@ body {
     height: auto;
     width: 100vw;
     display: block;
+    font-family: 'Cormorant', serif;
 }
 
 .pricing-text{
@@ -378,7 +382,7 @@ body {
 }
 
 .break{
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Cormorant', serif;
     font-size: 1.9rem;
 }
 
@@ -419,6 +423,7 @@ body {
     padding: 5%;
     height: auto;
     background-color: #fffffff8;
+    font-family: 'Cormorant', serif;
 }
 
 .submit-container{
