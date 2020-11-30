@@ -323,27 +323,27 @@ body {
 }
 
 #small-img{
-    background: url('../img/boxed.jpg') no-repeat center center/cover;
+    background: url('../img/sixeight.jpg') no-repeat center center/cover;
 }
 
 #med-img{
-    background: url('../img/hero2.jpg') no-repeat center center/cover;
+    background: url('../img/standard.jpg') no-repeat center center/cover;
 }
 
 #lg-img{
-    background: url('../img/standard.jpg') no-repeat center center/cover;
+    background: url('../img/eightten.jpg') no-repeat center center/cover;
 }
 
 #xl-img{
-    background: url('../img/standard.jpg') no-repeat center center/cover;
+    background: url('../img/tenfifteen.jpg') no-repeat center center/cover;
 }
 
 #xxl-img{
-    background: url('../img/standard.jpg') no-repeat center center/cover;
+    background: url('../img/event.jpg') no-repeat center center/cover;
 }
 
 #catering-img{
-    background: url('../img/IMG_6679.JPG') no-repeat center center/cover;
+    background: url('../img/event.jpg') no-repeat center center/cover;
 }
 
 .section-header{
@@ -387,22 +387,28 @@ body {
 #myCarousel {
     height: 50%;
     width: 60%;
-    margin: auto;
+    margin: 50px auto;
+    background-color: #000000;
 }
 
 .carousel-inner {
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 750px;
+    margin: auto;
+    
 }
 
 .carousel-item {
-    height: 60vh;
-    width: 60vw;
+    margin: auto;
 }
 
 .photos img{
-    max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    height: 500px;
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 /* ORDER */
