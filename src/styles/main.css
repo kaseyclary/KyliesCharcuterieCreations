@@ -297,6 +297,23 @@ body {
     font-family: 'Cormorant', serif;
 }
 
+.pricing-option{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #fffffff3;
+}
+
+.pricing-option:nth-of-type(2n){
+    background-color: #555555ec;
+    color: #f1f1f1;
+    flex-direction: row-reverse;
+}
+
+.even{
+    flex-direction: row-reverse;
+}
+
 .pricing-text{
     display: flex;
     justify-content: center;
@@ -306,24 +323,23 @@ body {
 
 .pricing-row{
     display: flex;
-    width: 100vw;
+    width: 70%;
+    margin: auto;
     justify-content: space-evenly;
     text-align: center;
     font-size: 1.25rem;
     padding: 50px 0;
-    background-color: #ffffffd7;
 }
 
 .pricing-row:nth-of-type(2n){
     flex-direction: row-reverse;
-    text-align: center;
-    background-color: #333333c5;
-    color: #f1f1f1;
 }
+
 
 .pricing-img{
     height: 250px;
     width: 400px;
+    border-radius: 10px;
 }
 
 #small-img{
@@ -620,10 +636,11 @@ body {
     }
 
     .pricing-img{
-        height: 50vh;
         width: 80vw;
+        height: 50vh;
+        object-fit: cover;
         margin: auto;
-        border-radius: 20px;
+        border-radius: 0;
     }
 
     .pricing-row:nth-of-type(2n){
