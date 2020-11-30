@@ -432,11 +432,9 @@ body {
 
 .footer {
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: auto;
+    padding: 5px 0 15px 0;
     background-color: #111111;
     color: #f1f1f1;
 }
@@ -444,6 +442,18 @@ body {
 .footer-text{
     margin-top: 10px;
     font-size: 12px;
+}
+.footer-links{
+    height: auto;
+    margin: auto;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icon{
+    margin: 0;
+    height: 50px;
+    width: 50px;
 }
 
 /* SOCIAL */
