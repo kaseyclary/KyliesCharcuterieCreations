@@ -149,7 +149,7 @@ body {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/hero2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/hero2.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,6 +261,7 @@ body {
 }
 .panel-group{
     width: 50%;
+    max-width: 1200px;
     margin: auto;
     text-align: center;
     padding: 50px;
@@ -343,35 +344,41 @@ body {
 }
 
 #small-img{
-    background: url('../img/sixeight.jpg') no-repeat center center/cover;
+    background: url('../img/sixeight.png') no-repeat center center/cover;
 }
 
 #med-img{
-    background: url('../img/standard.jpg') no-repeat center center/cover;
+    background: url('../img/standard.png') no-repeat center center/cover;
 }
 
 #lg-img{
-    background: url('../img/eightten.jpg') no-repeat center center/cover;
+    background: url('../img/eightten.png') no-repeat center center/cover;
 }
 
 #xl-img{
-    background: url('../img/tenfifteen.jpg') no-repeat center center/cover;
+    background: url('../img/tenfifteen.png') no-repeat center center/cover;
 }
 
 #xxl-img{
-    background: url('../img/event.jpg') no-repeat center center/cover;
+    background: url('../img/event.png') no-repeat center center/cover;
 }
 
 #catering-img{
-    background: url('../img/event.jpg') no-repeat center center/cover;
+    background: url('../img/event.png') no-repeat center center/cover;
 }
 
 .section-header{
     height: auto;
     width: 100%;
-    padding: 5% 20%;
     background-color: #ffffff;
     text-align: center;
+}
+
+.pricing-head-text{
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
 }
 
 .section-header h2{
@@ -436,6 +443,7 @@ body {
 .order-container {
     margin: auto;
     width: 50%;
+    max-width: 1000px;
     padding: 5%;
     height: auto;
     background-color: #fffffff8;
@@ -627,6 +635,16 @@ body {
     .pricing-row{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .pricing-head-text{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .pricing-head-text h2{
+        height: 5rem;
     }
 
     .pricing-text{
