@@ -205,8 +205,7 @@ body {
     min-width: 200px;
     height: 350px;
     width: 350px;
-
-    background: url('../img/blackLogo.png') no-repeat center center/cover;
+    background: url('../img/blackLogo.webp') no-repeat center center/cover;
 }
 
 #about-text-box{
