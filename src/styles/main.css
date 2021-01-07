@@ -23,7 +23,7 @@ body {
     /* scales to full viewport height */
     width: 100vw;
     height: 100vh;
-    background: url('../img/artBG.PNG') no-repeat center center/cover;
+    background: url('../img/artBG.webp') no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     /* scales to full element size */
     width: 100vw;
     height: 100%;
-    background: url('../img/artBG.PNG') no-repeat center center/cover;
+    background: url('../img/artBG.webp') no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -132,13 +132,13 @@ body {
 #nav-img-1{
     height: 3rem;
     width: 4rem;
-    background: url('../img/blueberries.png') no-repeat center center/cover;
+    background: url('../img/blueberries.webp') no-repeat center center/cover;
 }
 
 #nav-img-2{
     height: 3rem;
     width: 4rem;
-    background: url('../img/blueberries-transformed.png') no-repeat center center/cover;
+    background: url('../img/blueberries-transformed.webp') no-repeat center center/cover;
 }
 
 /* HERO */
@@ -149,7 +149,7 @@ body {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/hero2.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/hero2.webp');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,27 +344,27 @@ body {
 }
 
 #small-img{
-    background: url('../img/sixeight.png') no-repeat center center/cover;
+    background: url('../img/sixeight.webp') no-repeat center center/cover;
 }
 
 #med-img{
-    background: url('../img/standard.png') no-repeat center center/cover;
+    background: url('../img/standard.webp') no-repeat center center/cover;
 }
 
 #lg-img{
-    background: url('../img/eightten.png') no-repeat center center/cover;
+    background: url('../img/eightten.webp') no-repeat center center/cover;
 }
 
 #xl-img{
-    background: url('../img/tenfifteen.png') no-repeat center center/cover;
+    background: url('../img/tenfifteen.webp') no-repeat center center/cover;
 }
 
 #xxl-img{
-    background: url('../img/event.png') no-repeat center center/cover;
+    background: url('../img/event.webp') no-repeat center center/cover;
 }
 
 #catering-img{
-    background: url('../img/event.png') no-repeat center center/cover;
+    background: url('../img/event.webp') no-repeat center center/cover;
 }
 
 .section-header{
@@ -395,7 +395,7 @@ body {
 #blueberry-filler {
     height: 12rem;
     width: 15rem;
-    background: url('../img/blueberries.png') no-repeat center center/cover;
+    background: url('../img/blueberries.webp') no-repeat center center/cover;
     margin: auto;
 }
 
